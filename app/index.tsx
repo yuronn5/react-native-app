@@ -21,6 +21,8 @@ export default function Index() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        padding: 20,
+        backgroundColor: "yellow",
       }}
     >
       <Text>Default text</Text>
