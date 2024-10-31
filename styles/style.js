@@ -4,7 +4,7 @@ export const gStyle = StyleSheet.create({
     main: {
         flex: 1,
         padding: 20,
-        backgroundColor: "red"
+
     },
     text: {
         fontSize: 24,
@@ -14,5 +14,6 @@ export const gStyle = StyleSheet.create({
         borderBottomWidth: 1,
         borderBottomColor: "#0a7ea4",
         textAlign: "center",
+        fontFamily: "mt-bold",
     },
 })
