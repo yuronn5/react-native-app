@@ -4,7 +4,7 @@ import {Link} from 'expo-router';
 
 export default function App() {
   return (
-    <View className="flex: 1 justify-center, bg-white">
+    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
       <Text>StickerSmash</Text>
       <StatusBar style="auto" />
       <Link href="/home" style={{color: 'blue'}}>Pro1file</Link>
