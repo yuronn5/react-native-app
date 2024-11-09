@@ -7,7 +7,7 @@ export default function App() {
     <View className="flex: 1 justify-center, bg-white">
       <Text>StickerSmash</Text>
       <StatusBar style="auto" />
-      <Link href="/profile" style={{color: 'blue'}}>Pro1file</Link>
+      <Link href="/home" style={{color: 'blue'}}>Pro1file</Link>
     </View>
   );
 }
